@@ -1,10 +1,12 @@
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#current-temperature");
    let descriptionElement = document.querySelector("#description");
+   let humidityElement = document.querySelector("#humidity");
 
   
   temperatureElement.innerHTML = response.data.temperature.current;
   descriptionElement.innerHTML = response.data.condition.description;
+  humidityElement.innerHTML = response.data.temperature.humidity;
 }
 
 function search(event) {
