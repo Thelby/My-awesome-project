@@ -2,11 +2,13 @@ function displayTemperature(response) {
   let temperatureElement = document.querySelector("#current-temperature");
    let descriptionElement = document.querySelector("#description");
    let humidityElement = document.querySelector("#humidity");
+   let windSpeedElement = document.querySelector("#wind-speed");
 
   
   temperatureElement.innerHTML = response.data.temperature.current;
   descriptionElement.innerHTML = response.data.condition.description;
-  humidityElement.innerHTML = response.data.temperature.humidity;
+  humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
+  windSpeedElement.innerHTML = `${response.data.wind.speed}km/h`;
 }
 
 function search(event) {
