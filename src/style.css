@@ -3,7 +3,7 @@ body {
     }
     .container {
       max-width: 600px;
-      height: 350px;
+      height: 440px;
       padding: 20px;
       margin: 0 auto;
       background-color: rgb(80, 133, 187);
@@ -82,6 +82,33 @@ body {
       font-size: 28px;
       color: white;
     }
+    .weather-forecast {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 0px;
+    }
+    .weather-forecast-date {
+      text-align: center;
+      color: white;
+      font-size: 16px;
+      line-height: 12px;
+      margin-bottom: 10px;
+      opacity: 0.6;
+    }
+    .weather-forecast-icon {
+      font-size: 25px;
+      text-align: center;
+    }
+    .weather-forecast-temperatures {
+      text-align: center;
+      color: rgb(78, 7, 78);
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    .weather-forecast-temperature {
+      padding: 0 10px;
+    }
     .footer {
      font-family: Arial, Helvetica, sans-serif;
      font-weight: 500;
@@ -89,6 +116,6 @@ body {
      font-size: 16px;
      text-align: center;
      padding-bottom: 30px;
-     padding-top: 20px;
-    color: white;
+     padding-top: 40px;
+     color: white;
     }
