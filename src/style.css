@@ -82,3 +82,13 @@ body {
       font-size: 28px;
       color: white;
     }
+    .footer {
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+     opacity: 0.6;
+     font-size: 16px;
+     text-align: center;
+     padding-bottom: 30px;
+     padding-top: 20px;
+    color: white;
+    }
